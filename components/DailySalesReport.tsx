@@ -253,12 +253,12 @@ export const DailySalesReport: React.FC<DailySalesReportProps> = ({ exchangeRate
                 <ResponsiveContainer width="100%" height="100%">
                     <BarChart data={salesTrendData}>
                     <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e5e7eb" />
-                    <XAxis dataKey="name" axisLine={false} tickLine={false} fontSize={12} tick={{fill: '#9ca3af'}} />
+                    <XAxis dataKey="name" axisLine={false} tickLine={false} fontSize={12} tick={{fill: '#6cd0dd'}} />
                     <Tooltip 
                         contentStyle={{ borderRadius: '8px', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }}
-                        cursor={{ fill: '#f3f4f6' }}
+                        cursor={{ fill: '#c6d2eb' }}
                     />
-                    <Bar dataKey="ventas" fill="#3b82f6" radius={[4, 4, 0, 0]} barSize={30} />
+                    <Bar dataKey="ventas" fill="#7fa5e2" radius={[4, 4, 0, 0]} barSize={30} />
                     </BarChart>
                 </ResponsiveContainer>
             </div>
